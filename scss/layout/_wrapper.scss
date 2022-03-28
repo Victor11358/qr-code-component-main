@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 1em;
+  width: 20rem;
+  height: 31.25rem;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  background-color: $white;
+  border-radius: 1.25rem;
+
+  img {
+    border-radius: 1.25rem;
+  }
+
+  h2 {
+    padding: 1rem 0;
+    font-weight: weight(bold);
+    color: $darkBlue;
+  }
+
+  p {
+    margin: 0 auto;
+    max-width: 15.625rem;
+    font-size: 0.9375rem;
+    font-weight: weight(regular);
+    color: $grayishBlue;
+  }
+}

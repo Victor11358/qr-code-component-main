@@ -1,0 +1,83 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  display: flex;
+  grid-gap: 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6e2f0;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Google fonts */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  top: 999;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.wrapper {
+  padding: 1em;
+  width: 20rem;
+  height: 31.25rem;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  background-color: white;
+  border-radius: 1.25rem;
+}
+.wrapper img {
+  border-radius: 1.25rem;
+}
+.wrapper h2 {
+  padding: 1rem 0;
+  font-weight: 700;
+  color: #1f3251;
+}
+.wrapper p {
+  margin: 0 auto;
+  max-width: 15.625rem;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #7b879d;
+}/*# sourceMappingURL=main.css.map */
